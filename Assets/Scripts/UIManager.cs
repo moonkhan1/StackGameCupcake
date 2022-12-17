@@ -153,7 +153,7 @@ public class UIManager : MonoBehaviour
         DOTween.To(() => int.Parse(_getMoney.text), (x) => _getMoney.text = x.ToString(), System.Convert.ToInt32( DamageNumberEx.Instance._totalMoney* 0.2f) + 0, 2f);
         
         SoundManager.Instance.Play("Win");
-        DOTween.To(() => (_cake.fillAmount), (x) => _cake.fillAmount = x, _cake.fillAmount + (((CollectedCoffeeData.Instance.finalCountList.Count * 100)/ _cupcakes.Count)*0.1f), 2f);
+        DOTween.To(() => (_cake.fillAmount), (x) => _cake.fillAmount = x, _cake.fillAmount + (((CollectedCoffeeData.Instance.finalCountList.Count * 100)/ _cupcakes.Count)*0.01f), 2f);
         DOTween.To(() => int.Parse(_cakePercentage.text), (x) => _cakePercentage.text = x.ToString(), ((CollectedCoffeeData.Instance.finalCountList.Count * 100)/  _cupcakes.Count), 2f);
         Debug.Log((CollectedCoffeeData.Instance.finalCountList.Count * 100)/  _cupcakes.Count);
 
