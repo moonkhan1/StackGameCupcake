@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1150f085db8c4541a875e2719a9a8e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Parent: {instanceID: 0}
+  - _cakePrfb: {fileID: 1180208340057865002, guid: 26b6f305376609041b393f28de66620f, type: 3}
+  - _whiteCream: {fileID: 1180208340057865002, guid: bea1ccf3c1a15aa468a4a4173ecf1b5a, type: 3}
+  - _chocolate: {fileID: 1180208340057865002, guid: 9b8025776e7c76c4b8a48c0a01134a06, type: 3}
+  - _fireTransformCake: {instanceID: 0}
+  - _fireTransformCakeWhiteCream: {instanceID: 0}
+  - _fireTransformChocolate: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
