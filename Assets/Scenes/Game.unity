@@ -15,16 +15,16 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.74158955, g: 0.9344615, b: 0.9528302, a: 1}
-  m_FogMode: 1
-  m_FogDensity: 1
+  m_FogColor: {r: 0.2113207, g: 0.41119146, b: 1, a: 1}
+  m_FogMode: 2
+  m_FogDensity: 0.0019
   m_LinearFogStart: 0
   m_LinearFogEnd: 1500
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.38113207, g: 0.6127755, b: 1, a: 1}
+  m_AmbientEquatorColor: {r: 0.4433962, g: 0.298665, b: 0.3308275, a: 1}
+  m_AmbientGroundColor: {r: 0.5660378, g: 0.43503028, b: 0.17301531, a: 1}
   m_AmbientIntensity: 0.65
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: a6f2b37f154ef1a4897a2ffd7387f691, type: 2}
   m_HaloStrength: 0.5
@@ -33,12 +33,12 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_DefaultReflectionResolution: 2048
+  m_ReflectionBounces: 2
+  m_ReflectionIntensity: 0.568
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.07052275, g: 0.35373604, b: 0.97078824, a: 1}
+  m_IndirectSpecularColor: {r: 0.04005692, g: 0.20092207, b: 0.55140775, a: 0.568}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2947,8 +2947,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9658306, b: 0.8726415, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.9811321, g: 0.9077758, b: 0.71641153, a: 1}
+  m_Intensity: 1.04
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2987,7 +2987,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0.47
@@ -3742,7 +3742,7 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_Antialiasing: 0
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -8917,7 +8917,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2589670789208554132, guid: 53b26e0449c58dc41bf6a7ef3a8d6982, type: 3}
       propertyPath: m_CastShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2589670789208554132, guid: 53b26e0449c58dc41bf6a7ef3a8d6982, type: 3}
       propertyPath: m_Materials.Array.data[0]
